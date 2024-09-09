@@ -49,6 +49,14 @@ function Warning2nd(){
     alert('😂😂😂 ಇದು ಕೂಡ ಇನ್ನೂ host ಆಗಿಲ್ಲ.');
 };
 
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+  });
+
+document.onselectstart = function () {
+    return false;
+};
+  
 
 
 
