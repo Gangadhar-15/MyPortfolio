@@ -187,6 +187,8 @@ span {
     align-items: center;
     border: .3rem solid var(--main-color);
     border-radius: 10%;
+    margin: 5rem;
+
 
 }
 
@@ -214,7 +216,9 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    padding: 5rem;
 }
+
 
 /* <<<<<<<<<<<<<<<<< Portfolio >>>>>>>>>>>>>>>>>>>> */
 .Portfolio {
@@ -412,6 +416,7 @@ span {
 
     .about-content p {
         font-size: 99%;
+        padding: 2rem;
     }
 
 }
